@@ -1,0 +1,18 @@
+/*
+    File name: Footer.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: Simply the footer design for the dogs app.
+ */
+
+#hide-this {
+    visibility: hidden;
+}
+
+/*
+   Footer of the page where you are able to see the paws underneath.
+ */
+.footer {
+    background-image: url("../Images/dog-paws.jpg");
+    background-repeat: round;
+}

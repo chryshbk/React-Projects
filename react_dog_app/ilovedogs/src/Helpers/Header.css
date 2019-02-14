@@ -1,0 +1,17 @@
+/*
+    File name: Header.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: Header stylesheet for the Header.js.
+ */
+
+/*
+    Here is the header stylesheet of the page which creates a little shadow box around the title and does some tricks with colors.
+ */
+h1.title {
+    background-color: #f9fdff;
+    display: flex;
+    justify-content: center;
+    color: #ff3a33;
+    box-shadow: 1px 1px 5px 2px darkred;
+}

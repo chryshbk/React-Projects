@@ -1,0 +1,41 @@
+/*
+    File name: Dogs.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: This is the Dogs css which designs the class Dogs.js.
+ */
+
+/*
+    In this function we are resizing the image retrieved from the API. It is good to have a standard size.
+    Also, there are images which are too small so the 'image-rendering' is set to optimize the quality of the image.
+ */
+img.resize {
+    image-resolution: 200dpi;
+    max-width: 50%;
+    max-height: 50%;
+    image-rendering: optimizeQuality;
+}
+
+/*
+    Here we are only setting the height and width of the image retrieved.
+ */
+img.resize {
+    height: 400px;
+    width: 1000px;
+}
+
+/*
+    Hover the mouse over the image so it will grow a little bit (perhaps the dog wants something...)
+ */
+img:hover {
+    transform: scale(1.2);
+    transition: 2s ease-in-out;
+}
+
+/*
+    This is hiding the bounding box around the image retrieved from the api.
+    It is nuked because it was being displayed on the screen even if you did not retrieve the image yet.
+ */
+img:not([src]){
+    visibility: hidden;
+}

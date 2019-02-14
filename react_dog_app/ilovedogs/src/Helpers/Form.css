@@ -1,0 +1,63 @@
+/*
+    File name: Form.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: Here is the Form stylesheet which we will apply all the UI related
+                 functions to our button and drop down list.
+ */
+
+/*
+    Form div. This one manages the drop down menu and the button as well putting them in a nice place.
+ */
+div#form-div {
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+/*
+    It controls how to button function displays on the screen.
+    There is only one button, otherwise we could have put an id to identify them.
+ */
+button {
+    border: 0;
+    padding: 8px 6px 5px 8px;
+    margin: 0 40px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ff3a33;
+    color: #fff;
+}
+
+/*
+    select function works displaying the drop down menu where you can see the dogs.
+    You might not be able to see it in full but there are dog paws everywhere in the box where you select the dog breed.
+    It also blends the image to screen so the text becomes more visible and makes the image a bit more transparent.
+ */
+select {
+    color: black;
+    font-weight: bold;
+    background: url("../Images/dog-paws.jpg");
+    background-size: 10%;
+    background-blend-mode: screen;
+}
+
+/*
+    This settings are for the options on the drop down menu to put some glow on them.
+ */
+select option {
+    font-weight: bolder;
+    font-style: italic;
+    color: chocolate;
+}
+
+/*
+    This properties are reflected on the drop down menu in the selections, explicitly related to the font and the size of the drop down menu box.
+ */
+#dog-selector {
+    height: 30px;
+    font-size: 15px;
+}

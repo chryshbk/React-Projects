@@ -1,0 +1,11 @@
+/*
+    File name: index.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: Index stylesheet, we do not rely much on this but it is standard so I kept it.
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

@@ -1,0 +1,50 @@
+/*
+    File name: App.css
+    Author: Chrystian Rafael Sanches dos Santos
+    Date: September 28, 2018
+    Description: This is a standard App.css file which helps to design the application.
+                 The file contains the UI skeleton where the magic happens. These functions reflect on the User Interface when the app runs.
+ */
+
+/*
+    This is setting the font family of all the functions to Verdana, which I personally like. Simple and robust.
+ */
+*{
+    font-family:"Verdana";
+}
+
+/*
+    This wrapper is enclosing all the elements in the HTML markup.
+ */
+.wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+    The main function is working as a container. It sets the background color to match the background image of the little dog.
+    Also, note the background-position affects directly on where the dog image from the background will be placed. The image has no repetition as well.
+ */
+.main {
+    background-color: #f9fdff;
+    background-size: 40%;
+    background-image: url("Images/looking-at-you.jpg");
+    background-position: 89%;
+    background-repeat: no-repeat;
+    height: 591px;
+}
+
+/*
+    This div function helps to align the image retrieved to the center.
+ */
+div.image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34%;
+    margin-right: auto;
+    padding-top: 30px;
+}
